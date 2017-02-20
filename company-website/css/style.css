@@ -113,6 +113,7 @@
     padding: 7px;
     text-decoration: none;
     transition-duration: 0.7s;
+    color: blue;
   }
   .sidebar-links a:hover {
     background-color: #eef3f8;
@@ -178,7 +179,7 @@
     .sidebar-3C {
       float: left;
       background-color: #bbd1e3;
-      width: 15%;
+      width: 20%;
       height: 500px;
     }
     .main-content-3C {
@@ -208,6 +209,7 @@
       padding: 7px;
       text-decoration: none;
       transition-duration: 0.7s;
+      color: blue;
     }
     .sidebar-links-3C a:hover {
       background-color: #eef3f8;

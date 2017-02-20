@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hyrule Fields Contact Us</title>
+		<link rel="icon" type="image/jpg" href="../images/triforce.png">
+		<link rel="stylesheet" type="text/css" href="../css/style.css">
+		<style>
+			.main-content-contact {
+				float: left;
+	      background-color: steelblue;
+	      width: 55%;
+	      height: 500px;
+	      padding: 0 2% 0 2%;
+			}
+			.form-shape-contact {
+				width: 30em;
+				height: 3em;
+				border-radius: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="main-header box-shadow">
+				<img src="../images/hf-logo.png" alt="zelda-crest" title="Zelda Crest">
+				<h1>Contact Us</h1>
+			</header>
+			<section class = "content-bottom-3C">
+				<aside class= "sidebar-3C">
+					<ul class = "sidebar-links-3C">
+						<li><a href="../product/gallery.html">Product Gallery View</a></li>
+						<li><a href="../product/grid.html">Product Grid View</a></li>
+						<li><a href="../about/about.html">About Us</a></li>
+						<li><a href="../contact/contact.html">Contact Us</a></li>
+						<li><a href="../index.html" style="color:red;">Log Out</a></li>
+					</aside>
+					<article class = "main-content-contact">
+						<form name="send-email" class="container" action="mailto:ahuddleston80@mail.fresnostate.edu" method="post" enctype="text/plain">
+    						<label><b>First Name:</b></label>
+    						<input class="form-shape-contact" type="text" placeholder=" Enter First Name" name="fname" required><br>
+								<label><b>Last Name:</b></label>
+    						<input class="form-shape-contact" type="text" placeholder=" Enter Last Name" name="lname" required><br>
+								<label><b>Email:</b></label>
+    						<input class="form-shape-contact" type="email" placeholder=" Enter Email Address" name="email" required><br>
+								<button class="form-shape-contact btn-color" type="send">Send</button>
+								<button class="form-shape-contact" style="background-color:#E04836; margin-top:1.5em;" type="reset">Reset</button>
+						</form>
+					</article>
+			</div>
+		<footer class ="footer-3C">
+				<p class="copyright">(c) Created by Allen Huddleston</p>
+		</footer>
+	</body>
+</html>
