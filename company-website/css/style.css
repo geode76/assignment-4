@@ -297,3 +297,32 @@
       height: 3em;
       border-radius: 5px;
     }
+    .product-gallery {
+      width: 70%;
+      float: left;
+      background-color: steelblue;
+      height: 550px;
+      padding: 0 2% 0 2%;
+    }
+    .product-gallery td {
+      font-size: 10px;
+      align-content: top;
+      border: 1px solid ghostwhite;
+    }
+    .product-gallery img {
+      position: relative;
+    }
+    .product-price {
+      position: absolute;
+      color: ghostwhite;
+      top: 150px;
+      padding: 5px;
+      font-size: 12px
+    }
+    .procuct-price-row {
+      position: absolute;
+      color: ghostwhite;
+      top: 400px;
+      padding: 5px;
+      font-size: 12px
+    }
